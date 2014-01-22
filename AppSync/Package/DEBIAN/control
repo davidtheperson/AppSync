@@ -1,0 +1,15 @@
+Architecture: iphoneos-arm
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus
+Depends: mobilesubstrate
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsync70plus
+Description: AppSync allows you to sync and install unsigned iOS applications.
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Homepage: http://cydia.angelxwind.net/
+Name: AppSync for iOS 7.0+
+Package: net.angelxwind.appsync70plus
+Pre-Depends: firmware (>= 7.0), mobilesubstrate
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Section: Tweaks
+Version: 4.0
