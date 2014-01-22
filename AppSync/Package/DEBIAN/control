@@ -12,4 +12,4 @@ Pre-Depends: firmware (>= 7.0), mobilesubstrate
 Provides: appsync
 Replaces: us.hackulo.appsync50
 Section: Tweaks
-Version: 4.0
+Version: 4.0-1

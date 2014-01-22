@@ -22,6 +22,8 @@
 		9C2BA1E6188FB33500092C7F /* AppSync.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppSync.mm; sourceTree = "<group>"; };
 		9C2BA1EB188FB33500092C7F /* AppSync.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = AppSync.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/AppSync.plist; sourceTree = "<group>"; };
 		9C2BA1F1188FB36400092C7F /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		9C2BA1F5188FB64E00092C7F /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postinst; path = Package/DEBIAN/postinst; sourceTree = "<group>"; };
+		9C2BA1F6188FB64E00092C7F /* postrm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postrm; path = Package/DEBIAN/postrm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,8 @@
 		9C2BA1DF188FB33500092C7F /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
+				9C2BA1F5188FB64E00092C7F /* postinst */,
+				9C2BA1F6188FB64E00092C7F /* postrm */,
 				9C2BA1E1188FB33500092C7F /* control */,
 			);
 			name = DEBIAN;
@@ -347,6 +351,7 @@
 				9C2BA1F0188FB33500092C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
